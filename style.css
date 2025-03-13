@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.container {
+    box-shadow:  1px 1px 5px 1px gray;
+    border-radius: 10px;
+    position: relative;
+    width: 28vw;
+    height: 66vh;
+    margin: 10px;
+    display: flex;
+}
+
+img {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 27vw;
+    padding: 7px;
+}
+
+.content {
+    padding: 0 10px;
+}
+
+
+@media screen and (max-width: 1076px) {
+    
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.container {
+    box-shadow:  1px 1px 5px 1px gray;
+    border-radius: 10px;
+    position: relative;
+    width: 70vw;
+    height: 90vh;
+    margin: 10px;
+    display: flex;
+   
+}
+
+img {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 69vw;
+    padding: 7px;
+}
+
+.content {
+    padding: 0 10px;
+}}
+
+@media screen and (max-width: 680px) {
+    main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.container {
+    box-shadow:  1px 1px 5px 1px gray;
+    border-radius: 10px;
+    position: relative;
+    width: 70vw;
+    height: 65vh;
+    margin: 10px;
+    display: flex;
+   
+}
+
+img {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 69vw auto;
+    padding: 3px;
+}
+
+.content {
+    padding: 0 10px;
+}}
