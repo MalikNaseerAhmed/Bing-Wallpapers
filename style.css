@@ -87,10 +87,13 @@ img {
     box-shadow:  1px 1px 5px 1px gray;
     border-radius: 10px;
     position: relative;
-    width: 70vw;
-    height: 65vh;
+    width: 70vw auto;
+    height: 65vh auto;
     margin: 10px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
