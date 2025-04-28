@@ -167,7 +167,6 @@
             main {
                 grid-template-columns: 1fr;
                 gap: 2rem;
-                justify-items: center;
             }
             .download-btn {
                 justify-content: center;
