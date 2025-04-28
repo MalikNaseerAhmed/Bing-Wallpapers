@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Microsoft Bing Wallpaper</title>
+    <style>
+        /* Base Styles */
+        :root {
+            --primary-color: #2c3e50;
+            --shadow: 0 2px 5px rgba(0,0,0,0.1);
+            --border-radius: 10px;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        /* Main Content Layout */
+        main {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-auto-rows: auto;
+            justify-items: center;
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Card Container */
+        .container {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            min-height: 400px;
+            transition: transform 0.3s ease;
+        }
+
+        .container:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Card Content */
+        .content {
+            margin-bottom: 1rem;
+        }
+
+        .content h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+
+        /* Image Styling */
+        .container img {
+            width: 100%;
+            height: auto;
+            margin-top: auto; /* Pushes image to bottom */
+            border-radius: var(--border-radius);
+            object-fit: cover;
+        }
+
+        /* Links */
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            main {
+                grid-template-columns: 1fr;
+                padding: 10px;
+            }
+
+            .container {
+                min-height: auto;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.75rem;
+            }
+
+            body {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Page Header -->
+    <header>
+        <h1>Complete Bing Wallpaper Installation</h1>
+        <p class="congrats">
+            Congratulations on installing Bing Wallpaper!
+            <a href="BingWallpaper.exe">Click the Bing icon to customize it and learn more.</a>
+        </p>
+    </header>
+
+    <!-- Main Content Sections -->
+    <main>
+        <!-- Step 1: Open -->
+        <div class="container">
+            <div class="content">
+                <h3>1. Open</h3>
+                <p>Open and run the BingWallpaper.exe file from ‘Downloads’.</p>
+                <p>Can't find your download?</p>
+                <a href="BingWallpaper.exe">Click here to download Bing Wallpaper.</a>
+            </div>
+            <img src="img/open.png" alt="Open file interface">
+        </div>
+
+        <!-- Step 2: Install -->
+        <div class="container">
+            <div class="content">
+                <h3>2. Install</h3>
+                <p>Installation will start automatically. Before you finish, you may be asked to try Bing as your homepage and search engine to get Bing Wallpapers in your browser.</p>
+            </div>
+            <img src="img/install.png" alt="Installation interface" class="img2">
+        </div>
+
+        <!-- Step 3: Enjoy -->
+        <div class="container">
+            <div class="content">
+                <h3>3. Enjoy</h3>
+                <p>Congratulations on installing Bing Wallpaper! Click the Bing icon to customize it and learn more.</p>
+            </div>
+            <img src="img/enjoy.png" alt="Wallpaper examples">
+        </div>
+    </main>
+</body>
+</html>
